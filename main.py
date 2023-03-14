@@ -33,7 +33,7 @@ def answerMe(prompt, vectorindex):
 
 # Define Streamlit app
 def app():
-    st.title("Ask Me Anything Bot")
+    st.title("Welcome to Diani App, ask me any qiestions about hotels in Diani")
     path = 'Knowledge' # The path where the documents for the bot are stored
 
     # Create vector index and save to disk
