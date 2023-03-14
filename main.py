@@ -4,7 +4,7 @@ from langchain import OpenAI
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 def create_index(path):
     max_input = 4096
