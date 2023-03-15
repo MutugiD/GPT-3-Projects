@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 app = FastAPI()
 
